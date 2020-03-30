@@ -45,6 +45,7 @@ body {
 }
 
 .hero {
+    display: flex;
     position: relative;
     min-height: 720px;
     padding: 2rem 3rem;
@@ -54,10 +55,12 @@ body {
     color: #fff;
 }
 
+.hero-image {
+    align-self: flex-end;
+}
+
 .hero-img{
-    float: right;
-    position: relative;
-    top: 3.8rem;
+    display: block;
 }
 
 .heading-main {
