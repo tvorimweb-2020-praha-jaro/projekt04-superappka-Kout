@@ -45,22 +45,11 @@ body {
 }
 
 .hero {
-    display: flex;
     position: relative;
     min-height: 720px;
     padding: 2rem 3rem;
-    padding-right: 0;
-    padding-bottom: 0;
     background-image: url('images/pozadi.jpg');
     color: #fff;
-}
-
-.hero-image {
-    align-self: flex-end;
-}
-
-.hero-img{
-    display: block;
 }
 
 .heading-main {
@@ -87,4 +76,14 @@ body {
 
 .btn--primary {
     background-color: #48418e;
+}
+
+.hero-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-img {
+    display: block;
 }
