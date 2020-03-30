@@ -24,10 +24,63 @@ body {
 }
 
 .obal {
-    width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
+    max-width: 960px; /* obsah stránky je omezený do pruhu širokého 960px */
     margin: 0 auto; /* pruh je na stránce vycentrovaný */
     background: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+.nav-item {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #48418e;
+    text-decoration: none;
+}
+
+.nav-item--logo {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+    min-height: 720px;
+    padding: 2rem 3rem;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-image: url('images/telefon.png'),
+                      url('images/pozadi.jpg');
+    background-repeat: no-repeat,
+                       no-repeat;
+    background-position: right bottom, 0 0;
+    color: #fff;
+}
+
+.heading-main {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.perex {
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 1.5rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.btn--primary {
+    background-color: #48418e;
+}
