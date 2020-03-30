@@ -50,12 +50,14 @@ body {
     padding: 2rem 3rem;
     padding-right: 0;
     padding-bottom: 0;
-    background-image: url('images/telefon.png'),
-                      url('images/pozadi.jpg');
-    background-repeat: no-repeat,
-                       no-repeat;
-    background-position: right bottom, 0 0;
+    background-image: url('images/pozadi.jpg');
     color: #fff;
+}
+
+.hero-img{
+    float: right;
+    position: relative;
+    top: 3.8rem;
 }
 
 .heading-main {
@@ -66,7 +68,6 @@ body {
 .perex {
     font-size: 3rem;
     font-weight: 300;
-    text-shadow: 0 0 8px rgba(0,0,0,0.8);
 }
 
 .btn {
